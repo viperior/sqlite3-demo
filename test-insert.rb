@@ -26,9 +26,14 @@ def main
     ['latitude', 'REAL'],
     ['longitude', 'REAL'],
     ['active_status', 'BOOLEAN'],
-    ['places_photo_filename', 'TEXT'],
-    ['places_photo_attribution', 'TEXT'],
-    ['mlb_website_url', 'TEXT']
+    ['mlb_web_page_url', 'TEXT'],
+    ['mlb_web_physical_address', 'TEXT'],
+    ['places_formatted_address', 'TEXT'],
+    ['places_latitude', 'REAL'],
+    ['places_longitude', 'REAL'],
+    ['places_photo_reference', 'TEXT'],
+    ['places_photo_attribution_html', 'TEXT'],
+    ['places_photo_filename', 'TEXT']
   ]
   
   # Build and execute the table creation query.
